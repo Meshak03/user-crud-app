@@ -1,4 +1,3 @@
-/* Full page center layout */
 .app-container {
   min-height: 100vh;
   display: flex;
@@ -8,7 +7,6 @@
   padding: 20px;
 }
 
-/* Main card */
 .app-card {
   background: white;
   width: 100%;
@@ -19,7 +17,6 @@
   text-align: center;
 }
 
-/* Responsive adjustments */
 @media (max-width: 600px) {
   .app-card {
     padding: 20px;
@@ -27,13 +24,11 @@
   }
 }
 
-/* Error message */
 .error-text {
   color: red;
   margin-top: 10px;
 }
 
-/* Loading text */
 .loading-text {
   margin-top: 10px;
 }

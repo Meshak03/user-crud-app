@@ -17,18 +17,17 @@ const UserForm = ({ onSubmit, editUser }: Props) => {
     formState: { errors }
   } = useForm<User>();
 
-  // ✅ IMPORTANT FIX
   useEffect(() => {
     if (editUser) {
-      reset(editUser);   // set form values when editing
+      reset(editUser);   
     } else {
-      reset({});         // clear form when not editing
+      reset({});         
     }
   }, [editUser, reset]);
 
   const submitHandler = (data: User) => {
     onSubmit(data);
-    reset(); // clear after submit
+    reset(); 
   };
 
   return (

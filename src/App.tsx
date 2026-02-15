@@ -29,7 +29,7 @@ function App() {
       const res = await getUsers();
       setUsers(res.data);
     } catch {
-      setError("Failed to fetch users");
+      setError("Failed to fetch users, connect to backend");
     } finally {
       setLoading(false);
     }
@@ -48,7 +48,7 @@ function App() {
     const emailExists = users.some(
       (user) =>
         user.email.toLowerCase() === data.email.toLowerCase() &&
-        user.id !== editUser?.id // allow same user during edit
+        user.id !== editUser?.id 
     );
 
     if (emailExists) {
