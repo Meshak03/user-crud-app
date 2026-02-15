@@ -1,3 +1,25 @@
 {
-  "users": []
+  "users": [
+    {
+      "id": "cd9f",
+      "firstName": "Meshak",
+      "lastName": "M",
+      "phone": "9489753769",
+      "email": "meshakraj216@gmail.com"
+    },
+    {
+      "id": "60f1",
+      "firstName": "Meshak",
+      "lastName": "M",
+      "phone": "09489753769",
+      "email": "meshakraj216@gmail.com"
+    },
+    {
+      "firstName": "Meshak",
+      "lastName": "M",
+      "phone": "9489753769",
+      "email": "meshakraj216@gmail.com",
+      "id": "0826"
+    }
+  ]
 }
